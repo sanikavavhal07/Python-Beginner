@@ -66,7 +66,7 @@ end_of_game = False
 word_list = ["button", "coffee", "eleven", "animal", "august"]
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
-lives = 10
+lives = 6
 
 display = ["_" for _ in range(word_length)]
 
